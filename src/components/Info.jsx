@@ -1,6 +1,6 @@
 
 
-const Info = (props) => {
+const Info = ({comision}) => {
     return (
         <>
         <h2>Conceptos de react</h2>
@@ -8,7 +8,7 @@ const Info = (props) => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eum
           harum voluptates corporis, ipsa, numquam nulla illum magni praesentium
           corrupti iste ipsam necessitatibus enim, quis nemo consectetur quas!
-          Voluptatum, eligendi. <br></br> Comision : {props.comision}
+          Voluptatum, eligendi. <br></br> Comision : {comision}
         </p>
       </>
     );
