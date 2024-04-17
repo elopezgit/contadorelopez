@@ -21,6 +21,7 @@ const Contador = () => {
             <p>{numero}</p>
             <button className="btn btn-primary me-2" onClick={()=>setNumero(numero+1)}>+1</button>
             <button className="btn btn-danger" onClick={()=>setNumero(numero-1)}>-1</button>
+            <button className="btn btn-success ms-2" onClick={()=>setNumero(numero*0)}>reset</button>
 
         </section>
     );
